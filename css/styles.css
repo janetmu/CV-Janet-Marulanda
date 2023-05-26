@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 21px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.fotoPerfil{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.logo{
+    text-align: center;
+    padding: 15px;
+    background-image: url('/img/banner.png');
+}
+
+.sobreMi {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    color:  #163592;
+    margin-top: 60px;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+
+
+h3{
+    background-color:  #163592;
+    font-weight: 600;
+    color: #ffff;
+    padding: 10px;
+    padding-left: 30px;
+    letter-spacing: 6px;
+    text-align: left;
+    font-size: 20px;
+}
+
+b{
+    font-style: italic;
+    font-weight: 700;
+}
+
+ul{
+    padding: 30px;
+}
+
+li{
+    list-style: none;
+    line-height: 29px;
+}
+
+.listPersonalData li{
+    list-style: disc;
+    margin-left: 30px;
+}
+
+.divFecha, .divEscuela{
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 5px;
+}
+
+.divFecha{
+    font-weight: bold;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #163592;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.sobreMiPage {
+    background-color: #163592;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    text-align: justify;
+    margin: 50px;
+    align-content: center;
+}
+
+.footerSobreMiPage {
+    background-color: #ffffff;
+    color: #163592;
+}
+
+.linkCv {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.linkCv a{
+    color: #ffffff;
+}
+
